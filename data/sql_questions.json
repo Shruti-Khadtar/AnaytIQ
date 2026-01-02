@@ -1,0 +1,356 @@
+[
+  {
+    "id": 1,
+    "level": "Beginner",
+    "question": "What is SQL?",
+    "expected_points": ["structured query language", "manage relational databases"],
+    "model_answer": "SQL stands for Structured Query Language. It is used to store, retrieve, update, and manage data in relational databases."
+  },
+  {
+    "id": 2,
+    "level": "Beginner",
+    "question": "What is a table in SQL?",
+    "expected_points": ["rows and columns", "structured data"],
+    "model_answer": "A table is a database object that stores data in a structured format using rows and columns."
+  },
+  {
+    "id": 3,
+    "level": "Beginner",
+    "question": "What is a primary key?",
+    "expected_points": ["unique identifier", "no null values"],
+    "model_answer": "A primary key uniquely identifies each record in a table. It does not allow NULL values and ensures data integrity."
+  },
+  {
+    "id": 4,
+    "level": "Beginner",
+    "question": "What is a foreign key?",
+    "expected_points": ["relationship", "references primary key"],
+    "model_answer": "A foreign key is used to create a relationship between two tables by referencing the primary key of another table."
+  },
+  {
+    "id": 5,
+    "level": "Beginner",
+    "question": "What is NULL in SQL?",
+    "expected_points": ["missing value", "not zero"],
+    "model_answer": "NULL represents missing or unknown data. It is different from zero or an empty string."
+  },
+  {
+    "id": 6,
+    "level": "Beginner",
+    "question": "Difference between WHERE and HAVING?",
+    "expected_points": ["row filtering", "group filtering"],
+    "model_answer": "WHERE filters rows before aggregation, while HAVING filters aggregated data after GROUP BY."
+  },
+  {
+    "id": 7,
+    "level": "Beginner",
+    "question": "What is DISTINCT?",
+    "expected_points": ["remove duplicates"],
+    "model_answer": "DISTINCT is used to remove duplicate values from the result set."
+  },
+  {
+    "id": 8,
+    "level": "Beginner",
+    "question": "What is ORDER BY?",
+    "expected_points": ["sorting"],
+    "model_answer": "ORDER BY is used to sort query results in ascending or descending order."
+  },
+  {
+    "id": 9,
+    "level": "Beginner",
+    "question": "What is GROUP BY?",
+    "expected_points": ["group rows", "aggregate functions"],
+    "model_answer": "GROUP BY groups rows with similar values and is commonly used with aggregate functions like SUM or COUNT."
+  },
+  {
+    "id": 10,
+    "level": "Beginner",
+    "question": "What is LIKE operator?",
+    "expected_points": ["pattern matching"],
+    "model_answer": "LIKE is used to search for a specific pattern in a column using wildcards such as % and _."
+  },
+
+  {
+    "id": 11,
+    "level": "Intermediate",
+    "question": "Difference between INNER JOIN and LEFT JOIN?",
+    "expected_points": ["matching rows", "null handling"],
+    "model_answer": "INNER JOIN returns only matching rows from both tables. LEFT JOIN returns all rows from the left table and matching rows from the right table, with NULLs for non-matching rows."
+  },
+  {
+    "id": 12,
+    "level": "Intermediate",
+    "question": "What is RIGHT JOIN?",
+    "expected_points": ["all right table rows"],
+    "model_answer": "RIGHT JOIN returns all rows from the right table and matching rows from the left table."
+  },
+  {
+    "id": 13,
+    "level": "Intermediate",
+    "question": "What is FULL OUTER JOIN?",
+    "expected_points": ["all matching and non-matching rows"],
+    "model_answer": "FULL OUTER JOIN returns all rows from both tables, matching where possible and filling NULLs where there is no match."
+  },
+  {
+    "id": 14,
+    "level": "Intermediate",
+    "question": "What is UNION?",
+    "expected_points": ["combine results", "remove duplicates"],
+    "model_answer": "UNION combines the result sets of multiple SELECT statements and removes duplicate records."
+  },
+  {
+    "id": 15,
+    "level": "Intermediate",
+    "question": "Difference between UNION and UNION ALL?",
+    "expected_points": ["duplicate handling"],
+    "model_answer": "UNION removes duplicate rows, while UNION ALL includes all rows including duplicates."
+  },
+  {
+    "id": 16,
+    "level": "Intermediate",
+    "question": "What is a subquery?",
+    "expected_points": ["nested query"],
+    "model_answer": "A subquery is a query written inside another query and is used to return intermediate results."
+  },
+  {
+    "id": 17,
+    "level": "Intermediate",
+    "question": "What is a view?",
+    "expected_points": ["virtual table"],
+    "model_answer": "A view is a virtual table created using a stored SQL query. It does not store data physically."
+  },
+  {
+    "id": 18,
+    "level": "Intermediate",
+    "question": "What is an index?",
+    "expected_points": ["performance improvement"],
+    "model_answer": "An index improves query performance by allowing faster data lookup."
+  },
+  {
+    "id": 19,
+    "level": "Intermediate",
+    "question": "COUNT(*) vs COUNT(column)?",
+    "expected_points": ["null handling"],
+    "model_answer": "COUNT(*) counts all rows including NULLs, while COUNT(column) ignores NULL values."
+  },
+  {
+    "id": 20,
+    "level": "Intermediate",
+    "question": "What is CASE statement?",
+    "expected_points": ["conditional logic"],
+    "model_answer": "CASE is used to apply conditional logic in SQL queries, similar to IF-ELSE."
+  },
+
+  {
+    "id": 21,
+    "level": "Advanced",
+    "question": "What are window functions?",
+    "expected_points": ["over clause", "no row reduction"],
+    "model_answer": "Window functions perform calculations across a set of rows related to the current row without reducing the number of rows."
+  },
+  {
+    "id": 22,
+    "level": "Advanced",
+    "question": "Difference between RANK and DENSE_RANK?",
+    "expected_points": ["rank gaps"],
+    "model_answer": "RANK skips ranking numbers after ties, while DENSE_RANK does not skip numbers."
+  },
+  {
+    "id": 23,
+    "level": "Advanced",
+    "question": "What is ROW_NUMBER?",
+    "expected_points": ["unique row numbering"],
+    "model_answer": "ROW_NUMBER assigns a unique sequential number to each row in the result set."
+  },
+  {
+    "id": 24,
+    "level": "Advanced",
+    "question": "How to find the second highest salary?",
+    "expected_points": ["subquery", "dense_rank"],
+    "model_answer": "The second highest salary can be found using a subquery or DENSE_RANK with filtering."
+  },
+  {
+    "id": 25,
+    "level": "Advanced",
+    "question": "What is a CTE?",
+    "expected_points": ["temporary result", "readability"],
+    "model_answer": "CTE stands for Common Table Expression. It improves query readability and simplifies complex queries."
+  },
+  {
+    "id": 26,
+    "level": "Advanced",
+    "question": "What is a correlated subquery?",
+    "expected_points": ["depends on outer query"],
+    "model_answer": "A correlated subquery depends on values from the outer query and executes once for each row."
+  },
+  {
+    "id": 27,
+    "level": "Advanced",
+    "question": "Difference between DELETE, TRUNCATE, and DROP?",
+    "expected_points": ["row vs table"],
+    "model_answer": "DELETE removes specific rows, TRUNCATE removes all rows quickly, and DROP removes the entire table."
+  },
+  {
+    "id": 28,
+    "level": "Advanced",
+    "question": "What is normalization?",
+    "expected_points": ["reduce redundancy"],
+    "model_answer": "Normalization is the process of organizing data to reduce redundancy and improve data integrity."
+  },
+  {
+    "id": 29,
+    "level": "Advanced",
+    "question": "Explain ACID properties.",
+    "expected_points": ["atomicity", "consistency", "isolation", "durability"],
+    "model_answer": "ACID ensures reliable transactions: Atomicity, Consistency, Isolation, and Durability."
+  },
+  {
+    "id": 30,
+    "level": "Advanced",
+    "question": "What is denormalization?",
+    "expected_points": ["performance improvement"],
+    "model_answer": "Denormalization adds redundancy to improve query performance, especially in analytical systems."
+  },
+
+  {
+    "id": 31,
+    "level": "Advanced",
+    "question": "What is an execution plan?",
+    "expected_points": ["query optimization"],
+    "model_answer": "An execution plan shows how the database engine executes a query and helps identify performance issues."
+  },
+  {
+    "id": 32,
+    "level": "Advanced",
+    "question": "Clustered vs non-clustered index?",
+    "expected_points": ["physical vs logical"],
+    "model_answer": "A clustered index defines the physical order of data, while a non-clustered index stores pointers to data."
+  },
+  {
+    "id": 33,
+    "level": "Advanced",
+    "question": "What is partitioning?",
+    "expected_points": ["split large tables"],
+    "model_answer": "Partitioning divides large tables into smaller, manageable pieces to improve performance."
+  },
+  {
+    "id": 34,
+    "level": "Advanced",
+    "question": "What is a deadlock?",
+    "expected_points": ["mutual wait"],
+    "model_answer": "A deadlock occurs when two transactions wait for each other’s resources indefinitely."
+  },
+  {
+    "id": 35,
+    "level": "Advanced",
+    "question": "What are isolation levels?",
+    "expected_points": ["transaction visibility"],
+    "model_answer": "Isolation levels control how transactions are isolated from each other, such as READ COMMITTED or SERIALIZABLE."
+  },
+  {
+    "id": 36,
+    "level": "Advanced",
+    "question": "What is COALESCE?",
+    "expected_points": ["null handling"],
+    "model_answer": "COALESCE returns the first non-NULL value from a list of expressions."
+  },
+  {
+    "id": 37,
+    "level": "Advanced",
+    "question": "What is NULLIF?",
+    "expected_points": ["conditional null"],
+    "model_answer": "NULLIF returns NULL if the two expressions are equal; otherwise, it returns the first expression."
+  },
+  {
+    "id": 38,
+    "level": "Advanced",
+    "question": "What is a stored procedure?",
+    "expected_points": ["reusable logic"],
+    "model_answer": "A stored procedure is a reusable block of SQL code stored in the database."
+  },
+  {
+    "id": 39,
+    "level": "Advanced",
+    "question": "What is a trigger?",
+    "expected_points": ["automatic execution"],
+    "model_answer": "A trigger automatically executes SQL code in response to events like INSERT or UPDATE."
+  },
+  {
+    "id": 40,
+    "level": "Advanced",
+    "question": "What is a schema?",
+    "expected_points": ["logical container"],
+    "model_answer": "A schema is a logical container that organizes database objects like tables and views."
+  },
+
+  {
+    "id": 41,
+    "level": "Advanced",
+    "question": "What is a surrogate key?",
+    "expected_points": ["artificial key"],
+    "model_answer": "A surrogate key is an artificially generated key used as a primary key."
+  },
+  {
+    "id": 42,
+    "level": "Advanced",
+    "question": "What is star schema?",
+    "expected_points": ["fact and dimension"],
+    "model_answer": "Star schema consists of a central fact table connected to multiple dimension tables."
+  },
+  {
+    "id": 43,
+    "level": "Advanced",
+    "question": "What is snowflake schema?",
+    "expected_points": ["normalized dimensions"],
+    "model_answer": "Snowflake schema is an extension of star schema where dimension tables are normalized."
+  },
+  {
+    "id": 44,
+    "level": "Advanced",
+    "question": "What is OLTP?",
+    "expected_points": ["transactional processing"],
+    "model_answer": "OLTP systems handle day-to-day transactional operations like inserts and updates."
+  },
+  {
+    "id": 45,
+    "level": "Advanced",
+    "question": "What is OLAP?",
+    "expected_points": ["analytical processing"],
+    "model_answer": "OLAP systems are designed for analytical queries and reporting."
+  },
+  {
+    "id": 46,
+    "level": "Advanced",
+    "question": "What is data integrity?",
+    "expected_points": ["accuracy", "consistency"],
+    "model_answer": "Data integrity ensures data is accurate, consistent, and reliable throughout its lifecycle."
+  },
+  {
+    "id": 47,
+    "level": "Advanced",
+    "question": "What is CHECK constraint?",
+    "expected_points": ["value validation"],
+    "model_answer": "CHECK constraint ensures that column values meet a specified condition."
+  },
+  {
+    "id": 48,
+    "level": "Advanced",
+    "question": "What is DEFAULT constraint?",
+    "expected_points": ["default value"],
+    "model_answer": "DEFAULT constraint assigns a default value when no value is provided."
+  },
+  {
+    "id": 49,
+    "level": "Advanced",
+    "question": "What is NOT NULL constraint?",
+    "expected_points": ["no nulls allowed"],
+    "model_answer": "NOT NULL constraint ensures that a column cannot contain NULL values."
+  },
+  {
+    "id": 50,
+    "level": "Advanced",
+    "question": "How do you optimize SQL queries?",
+    "expected_points": ["indexes", "efficient joins"],
+    "model_answer": "SQL queries can be optimized by using indexes, avoiding unnecessary columns, writing efficient joins, and analyzing execution plans."
+  }
+]

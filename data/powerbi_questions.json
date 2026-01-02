@@ -1,0 +1,361 @@
+[
+  {
+    "id": 1,
+    "level": "Beginner",
+    "question": "What is Power BI?",
+    "expected_points": ["Business intelligence tool", "Data visualization"],
+    "model_answer": "Power BI is a business intelligence tool by Microsoft that helps users connect to data, transform it, and create interactive reports and dashboards."
+  },
+  {
+    "id": 2,
+    "level": "Beginner",
+    "question": "What are the main components of Power BI?",
+    "expected_points": ["Power BI Desktop", "Power BI Service", "Power BI Mobile"],
+    "model_answer": "The main components are Power BI Desktop for report creation, Power BI Service for sharing and collaboration, and Power BI Mobile for viewing reports on mobile devices."
+  },
+  {
+    "id": 3,
+    "level": "Beginner",
+    "question": "What is Power BI Desktop?",
+    "expected_points": ["Report development", "Data modeling"],
+    "model_answer": "Power BI Desktop is a Windows application used to connect to data sources, transform data, build data models, and create reports."
+  },
+  {
+    "id": 4,
+    "level": "Beginner",
+    "question": "What is Power BI Service?",
+    "expected_points": ["Cloud platform", "Sharing reports"],
+    "model_answer": "Power BI Service is an online cloud platform used to publish, share, and collaborate on Power BI reports and dashboards."
+  },
+  {
+    "id": 5,
+    "level": "Beginner",
+    "question": "What is a dashboard in Power BI?",
+    "expected_points": ["Single page", "Pinned visuals"],
+    "model_answer": "A dashboard is a single-page canvas in Power BI Service that displays pinned visuals from one or more reports."
+  },
+
+  {
+    "id": 6,
+    "level": "Beginner",
+    "question": "What is a report in Power BI?",
+    "expected_points": ["Multiple pages", "Visual analysis"],
+    "model_answer": "A report is a collection of visuals across one or more pages created in Power BI Desktop for detailed data analysis."
+  },
+  {
+    "id": 7,
+    "level": "Beginner",
+    "question": "What is a dataset in Power BI?",
+    "expected_points": ["Data model", "Used by reports"],
+    "model_answer": "A dataset is a data model containing tables, relationships, and calculations that reports are built on."
+  },
+  {
+    "id": 8,
+    "level": "Beginner",
+    "question": "What is a visual?",
+    "expected_points": ["Chart", "Data representation"],
+    "model_answer": "A visual is a graphical representation of data such as a bar chart, table, card, or line chart."
+  },
+  {
+    "id": 9,
+    "level": "Beginner",
+    "question": "What is a slicer?",
+    "expected_points": ["Filtering", "Interactive control"],
+    "model_answer": "A slicer is a visual filter that allows users to interactively filter data displayed in other visuals."
+  },
+  {
+    "id": 10,
+    "level": "Beginner",
+    "question": "What is data refresh?",
+    "expected_points": ["Update data", "Scheduled refresh"],
+    "model_answer": "Data refresh updates the dataset with the latest data from the source, either manually or on a schedule."
+  },
+
+  {
+    "id": 11,
+    "level": "Intermediate",
+    "question": "Difference between Import and DirectQuery?",
+    "expected_points": ["Cached data", "Live connection"],
+    "model_answer": "Import mode loads data into Power BI memory for faster performance, while DirectQuery fetches data live from the source each time a visual is queried."
+  },
+  {
+    "id": 12,
+    "level": "Intermediate",
+    "question": "What is Power Query?",
+    "expected_points": ["ETL tool", "Data transformation"],
+    "model_answer": "Power Query is an ETL tool used to extract, transform, and load data before it is used in Power BI reports."
+  },
+  {
+    "id": 13,
+    "level": "Intermediate",
+    "question": "What is M language?",
+    "expected_points": ["Power Query language"],
+    "model_answer": "M language is the functional language used in Power Query to perform data transformations."
+  },
+  {
+    "id": 14,
+    "level": "Intermediate",
+    "question": "What are relationships in Power BI?",
+    "expected_points": ["Connect tables", "Filter propagation"],
+    "model_answer": "Relationships define how tables are connected in a data model and control how filters flow between tables."
+  },
+  {
+    "id": 15,
+    "level": "Intermediate",
+    "question": "What is cardinality?",
+    "expected_points": ["One-to-many", "Many-to-many"],
+    "model_answer": "Cardinality describes the relationship type between tables, such as one-to-many or many-to-many."
+  },
+
+  {
+    "id": 16,
+    "level": "Intermediate",
+    "question": "What is star schema?",
+    "expected_points": ["Fact table", "Dimension tables"],
+    "model_answer": "Star schema is a data modeling approach with a central fact table connected to multiple dimension tables."
+  },
+  {
+    "id": 17,
+    "level": "Intermediate",
+    "question": "Calculated column vs Measure?",
+    "expected_points": ["Row context", "Filter context"],
+    "model_answer": "Calculated columns are evaluated row by row during data refresh, while measures are calculated dynamically based on filter context."
+  },
+  {
+    "id": 18,
+    "level": "Intermediate",
+    "question": "What is filter pane?",
+    "expected_points": ["Visual level", "Page level", "Report level"],
+    "model_answer": "The filter pane allows applying filters at visual, page, or report level to control data visibility."
+  },
+  {
+    "id": 19,
+    "level": "Intermediate",
+    "question": "What is drill-down?",
+    "expected_points": ["Hierarchy navigation"],
+    "model_answer": "Drill-down allows users to navigate from summarized data to more detailed levels within a hierarchy."
+  },
+  {
+    "id": 20,
+    "level": "Intermediate",
+    "question": "What is drill-through?",
+    "expected_points": ["Detail page", "Context transfer"],
+    "model_answer": "Drill-through allows users to navigate to another report page filtered by the selected data point."
+  },
+
+  {
+    "id": 21,
+    "level": "Advanced",
+    "question": "What is DAX?",
+    "expected_points": ["Calculation language", "Measures"],
+    "model_answer": "DAX stands for Data Analysis Expressions and is used to create measures, calculated columns, and tables in Power BI."
+  },
+  {
+    "id": 22,
+    "level": "Advanced",
+    "question": "What is CALCULATE function?",
+    "expected_points": ["Modify filter context"],
+    "model_answer": "CALCULATE evaluates an expression by modifying the existing filter context, making it one of the most powerful DAX functions."
+  },
+  {
+    "id": 23,
+    "level": "Advanced",
+    "question": "Row context vs Filter context?",
+    "expected_points": ["Evaluation context"],
+    "model_answer": "Row context applies calculations row by row, while filter context applies filters to evaluate measures."
+  },
+  {
+    "id": 24,
+    "level": "Advanced",
+    "question": "What are iterator functions?",
+    "expected_points": ["SUMX", "AVERAGEX"],
+    "model_answer": "Iterator functions perform row-by-row calculations over a table, such as SUMX and AVERAGEX."
+  },
+  {
+    "id": 25,
+    "level": "Advanced",
+    "question": "What is ALL function?",
+    "expected_points": ["Remove filters"],
+    "model_answer": "ALL removes filters from a table or column, commonly used to calculate totals ignoring slicers."
+  },
+
+  {
+    "id": 26,
+    "level": "Advanced",
+    "question": "What is time intelligence?",
+    "expected_points": ["YTD", "MTD", "YoY"],
+    "model_answer": "Time intelligence functions help perform calculations over time such as year-to-date, month-to-date, and year-over-year."
+  },
+  {
+    "id": 27,
+    "level": "Advanced",
+    "question": "What is SAMEPERIODLASTYEAR?",
+    "expected_points": ["Year-over-year comparison"],
+    "model_answer": "SAMEPERIODLASTYEAR returns the same date range from the previous year, commonly used for YoY analysis."
+  },
+  {
+    "id": 28,
+    "level": "Advanced",
+    "question": "What is RLS?",
+    "expected_points": ["Row-level security"],
+    "model_answer": "Row-Level Security restricts data access for users based on their roles and permissions."
+  },
+  {
+    "id": 29,
+    "level": "Advanced",
+    "question": "What is incremental refresh?",
+    "expected_points": ["Partial refresh", "Performance"],
+    "model_answer": "Incremental refresh updates only new or changed data, improving refresh performance for large datasets."
+  },
+  {
+    "id": 30,
+    "level": "Advanced",
+    "question": "What is Power BI Gateway?",
+    "expected_points": ["On-premises connection"],
+    "model_answer": "Power BI Gateway enables secure data transfer between on-premises data sources and Power BI Service."
+  },
+
+  {
+    "id": 31,
+    "level": "Advanced",
+    "question": "What is a composite model?",
+    "expected_points": ["Import + DirectQuery"],
+    "model_answer": "A composite model combines Import and DirectQuery modes in a single Power BI model."
+  },
+  {
+    "id": 32,
+    "level": "Advanced",
+    "question": "What is an aggregation table?",
+    "expected_points": ["Performance optimization"],
+    "model_answer": "Aggregation tables store summarized data to improve report performance on large datasets."
+  },
+  {
+    "id": 33,
+    "level": "Advanced",
+    "question": "What is performance analyzer?",
+    "expected_points": ["Visual performance"],
+    "model_answer": "Performance Analyzer helps identify slow visuals and DAX queries in a Power BI report."
+  },
+  {
+    "id": 34,
+    "level": "Advanced",
+    "question": "What is a bookmark?",
+    "expected_points": ["Saved report state"],
+    "model_answer": "Bookmarks capture the current state of a report, including filters and visuals, for navigation or storytelling."
+  },
+  {
+    "id": 35,
+    "level": "Advanced",
+    "question": "What is a tooltip page?",
+    "expected_points": ["Hover detail"],
+    "model_answer": "A tooltip page shows detailed information when a user hovers over a visual."
+  },
+
+  {
+    "id": 36,
+    "level": "Advanced",
+    "question": "What is bidirectional filtering?",
+    "expected_points": ["Two-way filter flow"],
+    "model_answer": "Bidirectional filtering allows filters to flow in both directions between related tables."
+  },
+  {
+    "id": 37,
+    "level": "Advanced",
+    "question": "What is ambiguity in relationships?",
+    "expected_points": ["Multiple filter paths"],
+    "model_answer": "Ambiguity occurs when multiple filter paths exist between tables, leading to unclear filter behavior."
+  },
+  {
+    "id": 38,
+    "level": "Advanced",
+    "question": "What is VertiPaq?",
+    "expected_points": ["In-memory engine"],
+    "model_answer": "VertiPaq is Power BI’s in-memory storage engine optimized for fast analytical queries."
+  },
+  {
+    "id": 39,
+    "level": "Advanced",
+    "question": "What is XMLA endpoint?",
+    "expected_points": ["Advanced model access"],
+    "model_answer": "XMLA endpoint allows advanced operations like querying and managing Power BI datasets using external tools."
+  },
+  {
+    "id": 40,
+    "level": "Advanced",
+    "question": "What is deployment pipeline?",
+    "expected_points": ["Dev-Test-Prod"],
+    "model_answer": "Deployment pipelines help manage report lifecycle across development, test, and production environments."
+  },
+
+  {
+    "id": 41,
+    "level": "Advanced",
+    "question": "What is a workspace?",
+    "expected_points": ["Collaboration area"],
+    "model_answer": "A workspace is a collaborative environment in Power BI Service where reports, dashboards, and datasets are managed."
+  },
+  {
+    "id": 42,
+    "level": "Advanced",
+    "question": "What is a Power BI App?",
+    "expected_points": ["Packaged content"],
+    "model_answer": "A Power BI App is a packaged collection of dashboards and reports shared with users."
+  },
+  {
+    "id": 43,
+    "level": "Advanced",
+    "question": "What is Q&A visual?",
+    "expected_points": ["Natural language query"],
+    "model_answer": "Q&A visual allows users to ask questions in natural language and get answers as visuals."
+  },
+  {
+    "id": 44,
+    "level": "Advanced",
+    "question": "What is tabular model?",
+    "expected_points": ["In-memory model"],
+    "model_answer": "Tabular model is an in-memory data model used by Power BI for fast analytical processing."
+  },
+  {
+    "id": 45,
+    "level": "Advanced",
+    "question": "What is data model optimization?",
+    "expected_points": ["Reduce columns", "Star schema"],
+    "model_answer": "Data model optimization involves simplifying tables, using star schema, and reducing unnecessary columns."
+  },
+
+  {
+    "id": 46,
+    "level": "Advanced",
+    "question": "What is incremental load?",
+    "expected_points": ["Load new data only"],
+    "model_answer": "Incremental load processes only newly added or modified data instead of reloading the entire dataset."
+  },
+  {
+    "id": 47,
+    "level": "Advanced",
+    "question": "What is role-based security?",
+    "expected_points": ["User access control"],
+    "model_answer": "Role-based security restricts data access by assigning users to predefined roles."
+  },
+  {
+    "id": 48,
+    "level": "Advanced",
+    "question": "What is many-to-many relationship?",
+    "expected_points": ["Both sides have duplicates"],
+    "model_answer": "Many-to-many relationship occurs when both tables contain duplicate values in the related columns."
+  },
+  {
+    "id": 49,
+    "level": "Advanced",
+    "question": "What is report performance optimization?",
+    "expected_points": ["Reduce visuals", "Optimize DAX"],
+    "model_answer": "Report performance can be improved by reducing visuals, optimizing DAX measures, and improving the data model."
+  },
+  {
+    "id": 50,
+    "level": "Advanced",
+    "question": "Why is Power BI important for data analysts?",
+    "expected_points": ["Insights", "Decision making"],
+    "model_answer": "Power BI enables data analysts to transform data into insights through interactive reports, supporting data-driven decision making."
+  }
+]

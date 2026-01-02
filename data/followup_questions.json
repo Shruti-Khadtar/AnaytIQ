@@ -1,0 +1,17 @@
+{
+  "SQL": {
+    "join": "Can you explain this join using a real-world example?",
+    "window": "How does this differ from GROUP BY?",
+    "index": "What are the disadvantages of indexes?"
+  },
+  "Python": {
+    "pandas": "Can you explain this with a code example?",
+    "performance": "How would you optimize this for large datasets?",
+    "memory": "How does Python manage memory?"
+  },
+  "Power BI": {
+    "dax": "How does filter context affect this?",
+    "model": "How would this impact report performance?",
+    "refresh": "What happens during scheduled refresh?"
+  }
+}

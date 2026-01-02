@@ -1,0 +1,62 @@
+# AnaytIQ – Data Analyst Interview Practice App
+
+AnaytIQ is a Streamlit-based web application designed exclusively for **Data Analyst interview preparation**.
+
+It simulates **real interview experiences** with:
+- Randomized questions
+- Auto-scoring
+- Follow-up interview logic
+- Searchable question bank with model answers
+
+---
+
+## Features
+
+- Live mock interview experience
+- SQL, Python, Power BI domains
+- Auto-scoring using key evaluation points
+- Searchable Question Bank
+- Follow-up questions for weak areas
+- Beginner → Advanced difficulty levels
+
+---
+
+## Tech Stack
+
+- Python
+- Streamlit
+- JSON (question datasets)
+
+---
+
+## Project Structure
+
+AnaytIQ/
+├── app.py
+├── pages/
+├── data/
+├── utils/
+└── requirements.txt
+
+---
+
+## How to Run Locally
+
+```
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## Target Users
+Data Analyst job seekers
+Freshers & students
+Interview preparation platforms
+
+## Future Enhancements
+AI-based interview feedback
+SQL live query execution
+User login & progress tracking
+PDF export of questions
+
+## Author
+Shruti Khadtar

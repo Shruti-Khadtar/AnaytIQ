@@ -1,0 +1,356 @@
+[
+  {
+    "id": 1,
+    "level": "Beginner",
+    "question": "What is Python?",
+    "expected_points": ["High-level language", "Easy to read"],
+    "model_answer": "Python is a high-level, interpreted programming language known for its simple syntax and readability. It is widely used in data analysis, automation, and web development."
+  },
+  {
+    "id": 2,
+    "level": "Beginner",
+    "question": "What are lists in Python?",
+    "expected_points": ["Ordered", "Mutable"],
+    "model_answer": "Lists are ordered and mutable data structures in Python used to store multiple values in a single variable."
+  },
+  {
+    "id": 3,
+    "level": "Beginner",
+    "question": "Difference between list and tuple?",
+    "expected_points": ["Mutable vs immutable"],
+    "model_answer": "Lists are mutable, meaning they can be changed, while tuples are immutable and cannot be modified after creation."
+  },
+  {
+    "id": 4,
+    "level": "Beginner",
+    "question": "What is a dictionary?",
+    "expected_points": ["Key-value pairs"],
+    "model_answer": "A dictionary stores data in key-value pairs, allowing fast lookups using unique keys."
+  },
+  {
+    "id": 5,
+    "level": "Beginner",
+    "question": "What is type casting?",
+    "expected_points": ["Convert data types"],
+    "model_answer": "Type casting is the process of converting one data type into another, such as converting a string to an integer."
+  },
+  {
+    "id": 6,
+    "level": "Beginner",
+    "question": "What is Pandas?",
+    "expected_points": ["Data analysis library"],
+    "model_answer": "Pandas is a Python library used for data manipulation and analysis, especially for working with structured data."
+  },
+  {
+    "id": 7,
+    "level": "Beginner",
+    "question": "What is a DataFrame?",
+    "expected_points": ["2D structure"],
+    "model_answer": "A DataFrame is a two-dimensional table-like data structure in Pandas with rows and columns."
+  },
+  {
+    "id": 8,
+    "level": "Beginner",
+    "question": "What is a Series in Pandas?",
+    "expected_points": ["1D array"],
+    "model_answer": "A Series is a one-dimensional labeled array in Pandas used to store a single column of data."
+  },
+  {
+    "id": 9,
+    "level": "Beginner",
+    "question": "What is NumPy?",
+    "expected_points": ["Numerical operations"],
+    "model_answer": "NumPy is a Python library used for numerical computing and working with arrays efficiently."
+  },
+  {
+    "id": 10,
+    "level": "Beginner",
+    "question": "What is a CSV file?",
+    "expected_points": ["Comma-separated values"],
+    "model_answer": "A CSV file stores tabular data in plain text where values are separated by commas."
+  },
+
+  {
+    "id": 11,
+    "level": "Intermediate",
+    "question": "How do you handle missing values in Pandas?",
+    "expected_points": ["dropna", "fillna"],
+    "model_answer": "Missing values can be handled using dropna() to remove them or fillna() to replace them with mean, median, or other values."
+  },
+  {
+    "id": 12,
+    "level": "Intermediate",
+    "question": "What is groupby in Pandas?",
+    "expected_points": ["Split-apply-combine"],
+    "model_answer": "groupby splits data into groups, applies a function, and combines the results, commonly used for aggregation."
+  },
+  {
+    "id": 13,
+    "level": "Intermediate",
+    "question": "Difference between merge and concat?",
+    "expected_points": ["Join vs append"],
+    "model_answer": "merge combines DataFrames based on keys like SQL joins, while concat stacks DataFrames vertically or horizontally."
+  },
+  {
+    "id": 14,
+    "level": "Intermediate",
+    "question": "What is boolean indexing?",
+    "expected_points": ["Filtering rows"],
+    "model_answer": "Boolean indexing filters data based on conditions and returns rows that satisfy the condition."
+  },
+  {
+    "id": 15,
+    "level": "Intermediate",
+    "question": "What is loc and iloc?",
+    "expected_points": ["Label vs index based"],
+    "model_answer": "loc is label-based indexing, while iloc is index-based positional indexing."
+  },
+  {
+    "id": 16,
+    "level": "Intermediate",
+    "question": "What is a lambda function?",
+    "expected_points": ["Anonymous function"],
+    "model_answer": "A lambda function is a small anonymous function written in a single line, often used for short operations."
+  },
+  {
+    "id": 17,
+    "level": "Intermediate",
+    "question": "What is try-except?",
+    "expected_points": ["Error handling"],
+    "model_answer": "try-except is used to handle runtime errors gracefully without stopping program execution."
+  },
+  {
+    "id": 18,
+    "level": "Intermediate",
+    "question": "What is slicing?",
+    "expected_points": ["Subset selection"],
+    "model_answer": "Slicing is used to extract a portion of a list, array, or DataFrame."
+  },
+  {
+    "id": 19,
+    "level": "Intermediate",
+    "question": "What is axis parameter in Pandas?",
+    "expected_points": ["Rows vs columns"],
+    "model_answer": "The axis parameter defines whether operations are applied across rows (axis=1) or columns (axis=0)."
+  },
+  {
+    "id": 20,
+    "level": "Intermediate",
+    "question": "What is apply function?",
+    "expected_points": ["Row or column operations"],
+    "model_answer": "apply allows custom functions to be applied across rows or columns in a DataFrame."
+  },
+
+  {
+    "id": 21,
+    "level": "Advanced",
+    "question": "What is list comprehension?",
+    "expected_points": ["Compact loops"],
+    "model_answer": "List comprehension provides a concise way to create lists using a single line of code."
+  },
+  {
+    "id": 22,
+    "level": "Advanced",
+    "question": "What is a generator?",
+    "expected_points": ["Memory efficient"],
+    "model_answer": "Generators produce values one at a time using yield, making them memory efficient for large datasets."
+  },
+  {
+    "id": 23,
+    "level": "Advanced",
+    "question": "Difference between deep copy and shallow copy?",
+    "expected_points": ["Object references"],
+    "model_answer": "Shallow copy copies references, while deep copy creates completely independent objects."
+  },
+  {
+    "id": 24,
+    "level": "Advanced",
+    "question": "What is vectorization?",
+    "expected_points": ["Performance optimization"],
+    "model_answer": "Vectorization performs operations on entire arrays instead of loops, significantly improving performance."
+  },
+  {
+    "id": 25,
+    "level": "Advanced",
+    "question": "What is broadcasting in NumPy?",
+    "expected_points": ["Array operations"],
+    "model_answer": "Broadcasting allows NumPy arrays of different shapes to perform arithmetic operations together."
+  },
+  {
+    "id": 26,
+    "level": "Advanced",
+    "question": "What is pivot table?",
+    "expected_points": ["Reshape data"],
+    "model_answer": "A pivot table summarizes and reshapes data by grouping and aggregating values."
+  },
+  {
+    "id": 27,
+    "level": "Advanced",
+    "question": "What is melt function?",
+    "expected_points": ["Wide to long"],
+    "model_answer": "melt converts wide-format data into long-format data for better analysis."
+  },
+  {
+    "id": 28,
+    "level": "Advanced",
+    "question": "What is rolling window?",
+    "expected_points": ["Moving calculations"],
+    "model_answer": "Rolling window functions perform calculations over a sliding window of data points."
+  },
+  {
+    "id": 29,
+    "level": "Advanced",
+    "question": "What is EDA?",
+    "expected_points": ["Exploratory analysis"],
+    "model_answer": "EDA stands for Exploratory Data Analysis and is used to understand data patterns, trends, and anomalies."
+  },
+  {
+    "id": 30,
+    "level": "Advanced",
+    "question": "What is feature scaling?",
+    "expected_points": ["Normalize data"],
+    "model_answer": "Feature scaling standardizes numerical features to ensure fair contribution to models."
+  },
+
+  {
+    "id": 31,
+    "level": "Advanced",
+    "question": "What is correlation?",
+    "expected_points": ["Relationship between variables"],
+    "model_answer": "Correlation measures the strength and direction of the relationship between two variables."
+  },
+  {
+    "id": 32,
+    "level": "Advanced",
+    "question": "What is covariance?",
+    "expected_points": ["Joint variability"],
+    "model_answer": "Covariance shows how two variables change together."
+  },
+  {
+    "id": 33,
+    "level": "Advanced",
+    "question": "What is standard deviation?",
+    "expected_points": ["Data dispersion"],
+    "model_answer": "Standard deviation measures how much data values deviate from the mean."
+  },
+  {
+    "id": 34,
+    "level": "Advanced",
+    "question": "What is z-score?",
+    "expected_points": ["Standardization"],
+    "model_answer": "Z-score represents how many standard deviations a value is from the mean."
+  },
+  {
+    "id": 35,
+    "level": "Advanced",
+    "question": "What is outlier?",
+    "expected_points": ["Extreme value"],
+    "model_answer": "An outlier is a data point that significantly differs from other observations."
+  },
+  {
+    "id": 36,
+    "level": "Advanced",
+    "question": "What is one-hot encoding?",
+    "expected_points": ["Categorical conversion"],
+    "model_answer": "One-hot encoding converts categorical variables into binary columns."
+  },
+  {
+    "id": 37,
+    "level": "Advanced",
+    "question": "What is resampling?",
+    "expected_points": ["Time-series aggregation"],
+    "model_answer": "Resampling changes the frequency of time-series data, such as daily to monthly."
+  },
+  {
+    "id": 38,
+    "level": "Advanced",
+    "question": "What is cumulative sum?",
+    "expected_points": ["Running total"],
+    "model_answer": "Cumulative sum calculates the running total of values over time."
+  },
+  {
+    "id": 39,
+    "level": "Advanced",
+    "question": "What is memory optimization in Pandas?",
+    "expected_points": ["Reduce data types"],
+    "model_answer": "Memory optimization involves using appropriate data types to reduce memory usage."
+  },
+  {
+    "id": 40,
+    "level": "Advanced",
+    "question": "What is chunking?",
+    "expected_points": ["Process large data"],
+    "model_answer": "Chunking processes large datasets in smaller pieces to avoid memory issues."
+  },
+
+  {
+    "id": 41,
+    "level": "Advanced",
+    "question": "What is profiling?",
+    "expected_points": ["Data summary"],
+    "model_answer": "Profiling provides a summary of data structure, quality, and distributions."
+  },
+  {
+    "id": 42,
+    "level": "Advanced",
+    "question": "What is matplotlib?",
+    "expected_points": ["Visualization library"],
+    "model_answer": "Matplotlib is a Python library used for creating static data visualizations."
+  },
+  {
+    "id": 43,
+    "level": "Advanced",
+    "question": "What is seaborn?",
+    "expected_points": ["Statistical plots"],
+    "model_answer": "Seaborn is built on Matplotlib and provides advanced statistical visualizations."
+  },
+  {
+    "id": 44,
+    "level": "Advanced",
+    "question": "What is datetime parsing?",
+    "expected_points": ["Convert strings to datetime"],
+    "model_answer": "Datetime parsing converts date strings into datetime objects for time-based analysis."
+  },
+  {
+    "id": 45,
+    "level": "Advanced",
+    "question": "What is multi-index?",
+    "expected_points": ["Hierarchical indexing"],
+    "model_answer": "Multi-index allows multiple index levels for advanced data representation."
+  },
+  {
+    "id": 46,
+    "level": "Advanced",
+    "question": "What is applymap?",
+    "expected_points": ["Element-wise function"],
+    "model_answer": "applymap applies a function to every element of a DataFrame."
+  },
+  {
+    "id": 47,
+    "level": "Advanced",
+    "question": "What is time complexity?",
+    "expected_points": ["Algorithm efficiency"],
+    "model_answer": "Time complexity measures how algorithm runtime grows with input size."
+  },
+  {
+    "id": 48,
+    "level": "Advanced",
+    "question": "What is vectorized string operation?",
+    "expected_points": ["String processing"],
+    "model_answer": "Vectorized string operations allow fast string manipulation using Pandas string methods."
+  },
+  {
+    "id": 49,
+    "level": "Advanced",
+    "question": "What is label encoding?",
+    "expected_points": ["Categorical conversion"],
+    "model_answer": "Label encoding converts categories into numeric labels."
+  },
+  {
+    "id": 50,
+    "level": "Advanced",
+    "question": "How do you optimize Python code for data analysis?",
+    "expected_points": ["Vectorization", "Efficient libraries"],
+    "model_answer": "Python code is optimized using vectorized operations, efficient libraries like NumPy and Pandas, and by avoiding unnecessary loops."
+  }
+]
